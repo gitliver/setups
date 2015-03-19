@@ -2,7 +2,7 @@
 
 # Install python packages for a flask app on a fresh Ubuntu AWS EC2 node
 
-mypackages_python="uwsgi flask pandas numpy"
+mypackages_python="uwsgi flask pandas numpy python-instagram"
 
 # turn virtualenv on
 # virtualenv venv

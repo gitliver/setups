@@ -3,7 +3,7 @@
 # Install packages for a flask app on a fresh Ubuntu AWS EC2 node
 
 # the programs we want (flask needs python-dev build-essential)
-mypackages="build-essential python-dev python-numpy git nginx htop"
+mypackages="build-essential python-dev python-numpy git nginx htop sqlite3 libsqlite3-dev"
 helpmessage="Install packages for a flask app on a fresh Ubuntu AWS EC2 node:\n\n\
 ${mypackages}\n\nRun from your home directory (as root):\n\
 $0              # any other time you run it"
