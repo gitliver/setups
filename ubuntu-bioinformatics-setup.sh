@@ -37,6 +37,10 @@ sudo apt-get update
 # grab programs
 echo "*** grab bioinformatics programs ***"
 toget="https://github.com/samtools/samtools/releases/download/1.4/samtools-1.4.tar.bz2
+https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.5.zip
+https://github.com/broadinstitute/picard/archive/2.9.2.tar.gz
+https://github.com/pachterlab/kallisto/releases/download/v0.43.1/kallisto_linux-v0.43.1.tar.gz
+ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/downloads/hisat2-2.1.0-Linux_x86_64.zip
 https://sourceforge.net/projects/snpeff/files/snpEff_v4_1c_core.zip
 https://github.com/alexdobin/STAR/archive/2.5.3a.tar.gz
 https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.1/bowtie2-2.3.1-linux-x86_64.zip
@@ -99,6 +103,9 @@ PATH=$PATH:/opt/software/trinityrnaseq-2.1.1
 PATH=$PATH:/opt/software/ncbi-blast-2.6.0+/bin
 PATH=$PATH:/opt/software/subread-1.5.2-Linux-x86_64/bin
 PATH=$PATH:/opt/software/bowtie-1.2
+PATH=$PATH:/opt/software/FastQC
+PATH=$PATH:/opt/software/kallisto_linux-v0.43.1
+PATH=$PATH:/opt/software/hisat2-2.1.0
 
 export PATH
 
