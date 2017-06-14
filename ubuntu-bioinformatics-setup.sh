@@ -33,6 +33,7 @@ echo "*** change directory: /opt/software ***"
 echo "*** update system software ***"
 sudo apt-get upgrade
 sudo apt-get update
+sudo apt-get install awscli
 
 # grab programs
 echo "*** grab bioinformatics programs ***"
