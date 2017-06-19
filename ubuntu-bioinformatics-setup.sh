@@ -71,6 +71,7 @@ echo "*** clone stuff from git ***"
 git clone https://github.com/RabadanLab/Pandora.git
 git clone https://github.com/RabadanLab/SAVI.git
 # third party
+git clone https://github.com/broadinstitute/gatk
 git clone --recursive https://github.com/vcflib/vcflib.git
 
 # Python stuff
