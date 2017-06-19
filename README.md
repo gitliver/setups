@@ -7,4 +7,5 @@ This repository contains the directories:
 
 And the scripts:
 
-- ubuntu-bioinformatics-setup.sh - setup script for common bioinformatics tools on Ubuntu
+- `ubuntu-bioinformatics-setup.sh` - setup script for common bioinformatics tools on Ubuntu
+- `setup_new_mac.sh` - setup script for a new mac
