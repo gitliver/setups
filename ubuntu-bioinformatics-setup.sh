@@ -43,6 +43,7 @@ https://github.com/broadinstitute/picard/archive/2.9.2.tar.gz
 https://github.com/pachterlab/kallisto/releases/download/v0.43.1/kallisto_linux-v0.43.1.tar.gz
 ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/downloads/hisat2-2.1.0-Linux_x86_64.zip
 https://sourceforge.net/projects/snpeff/files/snpEff_v4_1c_core.zip
+https://sourceforge.net/projects/snpeff/files/snpEff_latest_core.zip
 https://github.com/alexdobin/STAR/archive/2.5.3a.tar.gz
 https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.1/bowtie2-2.3.1-linux-x86_64.zip
 https://github.com/trinityrnaseq/trinityrnaseq/archive/Trinity-v2.4.0.tar.gz
