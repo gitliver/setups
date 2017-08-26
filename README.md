@@ -1,5 +1,5 @@
 ## setups
-setup scripts to install packages on fresh computers (I have AWS ec2 nodes in mind)
+setup scripts to install packages on fresh computers
 
 This repository contains the directories:
 
@@ -8,4 +8,4 @@ This repository contains the directories:
 And the scripts:
 
 - `ubuntu-bioinformatics-setup.sh` - setup script for common bioinformatics tools on Ubuntu
-- `setup_new_mac.sh` - setup script for a new mac
+- `setup_new_mac.sh` - setup script for downloading useful programs on a new mac (e.g., wget, coreutils, tmux, gpg, etc.)
