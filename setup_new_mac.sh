@@ -6,7 +6,7 @@
 echo "*** install brew ***"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-for i in wget coreutils tmux youtube-dl imagemagick gpg python3 postgres ffmpeg tree htop; do
+for i in wget coreutils tmux youtube-dl imagemagick gpg python3 postgres ffmpeg tree htop datamash; do
 	echo "*** install "${i}" ***"; 
 	brew install ${i}; 
 done
@@ -21,3 +21,6 @@ sudo pip install virtualenv
 echo "*** install aws cli ***"
 sudo pip3 install awscli --upgrade
 
+echo "*** install numpy, scipy ***"
+pip3 install numpy
+pip3 install scipy
