@@ -25,5 +25,8 @@ sudo pip3 install awscli --upgrade
 pip3 install numpy
 pip3 install scipy
 
+echo "*** install npm packages ***"
+npm install -g sass
+
 echo
 echo "Don't forget to download VLC, Office, Photoshop, Illustrator..."
